@@ -1,4 +1,3 @@
-import { Grid } from '@mui/material';
 import timi from '../assets/timi.png';
 
 const About = () => {
