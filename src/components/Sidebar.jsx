@@ -1,5 +1,4 @@
 import { Drawer } from '@mui/material';
-import { Link } from 'react-router-dom';
 import { useAppContext } from '../context + reducer/appContext';
 import resume from '../assets/resume.pdf';
 
@@ -13,19 +12,19 @@ const Sidebar = () => {
       onKeyDown={closeSidebar}
     >
       <li>
-        <Link to="#about">About</Link>
+        <a href="#about">About</a>
       </li>
 
       <li>
-        <Link to="#experience">Experience</Link>
+        <a href="#experience">Experience</a>
       </li>
 
       <li>
-        <Link to="#works">Works</Link>
+        <a href="#works">Works</a>
       </li>
 
       <li>
-        <Link to="#contact">Contact</Link>
+        <a href="#contact">Contact</a>
       </li>
 
       <a
