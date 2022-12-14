@@ -32,11 +32,7 @@ const About = () => {
 
         <div className="image-container">
           <div className="wrapper">
-            <picture>
-              <source type="image/avif" srcSet={timi}></source>
-              <source type="image/webp" srcSet={timi}></source>
               <img src={timi} alt="Timi" />
-            </picture>
           </div>
         </div>
       </div>
