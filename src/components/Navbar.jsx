@@ -1,4 +1,4 @@
-import { Box, Button, Slide, Stack, styled } from '@mui/material';
+import { Slide } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../assets/logo.svg';
 import { useAppContext } from '../context + reducer/appContext';

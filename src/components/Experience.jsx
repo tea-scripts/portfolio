@@ -75,7 +75,9 @@ const Experience = () => {
                 {company}
               </a>
             </div>
-            <p className="job-date">{date}</p>
+            <p className="job-date" style={{ marginBottom: '20px' }}>
+              {date}
+            </p>
             {description.map((desc, index) => {
               return (
                 <div key={index} className="job-desc">

@@ -27,12 +27,14 @@ const About = () => {
             <li>React</li>
             <li>Redux</li>
             <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Git & GitHub</li>
           </ul>
         </div>
 
         <div className="image-container">
           <div className="wrapper">
-              <img src={timi} alt="Timi" />
+            <img src={timi} alt="Timi" />
           </div>
         </div>
       </div>

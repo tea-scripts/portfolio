@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react';
-import axios from 'axios';
+import React, { useState, useContext } from 'react';
 
 const initialState = {
-  loading: true,
   isSidebarOpen: false,
 };
 

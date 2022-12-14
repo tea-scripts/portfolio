@@ -1,21 +1,6 @@
-import {
-  Box,
-  Button,
-  Divider,
-  Grow,
-  Slide,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Box, Grow, Slide, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import {
-  IconBrandGithub,
-  IconBrandInstagram,
-  IconBrandLinkedin,
-  IconBrandTwitter,
-} from '@tabler/icons';
 
 const Hero = () => {
   const [showText, setShowText] = useState(false);
@@ -59,7 +44,7 @@ const Hero = () => {
         style={{ transformOrigin: '0 0 0' }}
         {...(showText ? { timeout: 650 } : {})}
       >
-        <p className="hero-description">
+        <p className="hero-description" style={{ margin: '20px 0px 0px' }}>
           I’m a fullstack web developer specializing in building (and
           occasionally designing) exceptional digital experiences using MERN
           Stack. Currently, I’m focused on building accessible, human-centered
@@ -84,19 +69,6 @@ const Hero = () => {
 };
 
 const styles = {
-  root: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    justiItems: 'center',
-    alignItems: 'flex-start',
-    minHeight: '100vh',
-    width: '100%',
-    padding: '0px',
-    textAlign: 'center',
-    maxWidth: '1000px',
-  },
-
   smallHeading: {
     fontSize: 'clamp(var(--fz-sm),5vw,var(--fz-md))',
     margin: '0px 0px 30px 4px',

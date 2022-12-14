@@ -6,8 +6,8 @@ import {
   IconBrandTwitter,
 } from '@tabler/icons';
 import { useEffect, useState } from 'react';
-import { About, Contact, Experience, Hero, Navbar, Works } from '../components';
-import { useAppContext } from '../context + reducer/appContext';
+import { About, Contact, Experience, Hero, Works } from '../components';
+import Footer from '../components/Footer';
 
 const Landing = () => {
   const [showText, setShowText] = useState(false);
@@ -81,6 +81,7 @@ const Landing = () => {
         <Works />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 };
