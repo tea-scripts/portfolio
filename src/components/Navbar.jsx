@@ -1,7 +1,7 @@
 import { Slide } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../assets/logo.svg';
-import { useAppContext } from '../context + reducer/appContext';
+import { useAppContext } from '../context/appContext';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import resume from '../assets/resume.pdf';

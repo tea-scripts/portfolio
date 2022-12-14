@@ -1,5 +1,5 @@
 import { Drawer } from '@mui/material';
-import { useAppContext } from '../context + reducer/appContext';
+import { useAppContext } from '../context/appContext';
 import resume from '../assets/resume.pdf';
 
 const Sidebar = () => {
