@@ -142,6 +142,12 @@ section {
   max-width: 1000px;
 }
 
+button {
+  cursor: pointer;
+  border: 0px;
+  border-radius: 0px;
+}
+
 /* END OF GLOBALS */
 
 /* HEADER */
@@ -635,3 +641,215 @@ ul.skills-list li::before {
     margin: 0px auto 50px;
   }
 }
+
+/* EXPERIENCE */
+
+#experience {
+  max-width: 700px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.btn-container {
+  position: relative;
+  z-index: 3;
+  width: max-content;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.job-desc p {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+}
+
+.job-desc p::before {
+  content: '▹';
+  position: absolute;
+  left: 0px;
+  color: var(--green);
+  font-size: var(--fz-sm);
+  line-height: 12px;
+}
+
+.job-btn {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: var(--tab-height);
+  padding: 0px 20px 2px;
+  border-left: 2px solid var(--lightest-navy);
+  background-color: transparent;
+  color: var(--slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.job-btn:hover,
+.job-btn:focus {
+  background-color: var(--light-navy);
+}
+
+.job-btn:hover,
+.job-btn:active,
+.job-btn:focus {
+  color: var(--green);
+  outline: 0px;
+}
+
+.job-info {
+  position: relative;
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: var(--fz-lg);
+}
+
+.job-info h3 {
+  font-family: 'Inter', sans-serif;
+  margin-right: 0.5rem;
+  color: var(--lightest-slate);
+}
+
+.job-date {
+  margin-bottom: 25px;
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+  outline-offset: 0px;
+}
+
+.active-btn {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: var(--tab-height);
+  padding: 0px 20px 2px;
+  border-left: 2px solid var(--green);
+  background-color: transparent;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  text-align: left;
+  white-space: nowrap;
+  background-color: var(--light-navy);
+
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s,
+    transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.active-btn:hover,
+.active-btn:active,
+.active-btn:focus {
+  color: var(--green);
+  outline: 0px;
+}
+
+.active-btn:hover,
+.active-btn:focus {
+  background-color: var(--light-navy);
+}
+
+@media (max-width: 768px) {
+  .active-btn {
+    padding: 0px 15px 2px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    display: block;
+  }
+
+  .btn-container {
+    display: flex;
+    overflow-x: auto;
+    width: calc(100% + 100px);
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 30px;
+  }
+
+  .job-btn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 120px;
+    padding: 0px 15px;
+    border-left: 0px;
+    border-bottom: 2px solid var(--lightest-navy);
+    text-align: center;
+  }
+
+  .active-btn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 120px;
+    padding: 0px 15px;
+    border-left: 0px;
+    border-bottom: 2px solid var(--lightest-navy);
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-container {
+    width: calc(100% + 50px);
+    padding-left: 25px;
+    margin-left: -25px;
+  }
+}
+
+a.inline-link {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  color: var(--green);
+}
+
+a.inline-link::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 1px;
+  position: relative;
+  bottom: 0.37em;
+  background-color: var(--green);
+  transition: var(--transition);
+  opacity: 0.5;
+}
+
+/* WORKS */
