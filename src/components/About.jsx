@@ -7,17 +7,18 @@ const About = () => {
       <div className="grid-container">
         <div className="grid-item-one">
           <p>
-            Hello! My name is Oluwatimilehin and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2020 when I decided to see how a web page is built by looking at the
-            developers console and that taught me a lot about HTML & CSS!
+            Hello! My name is Oluwatimilehin, and I love creating stuff that
+            others can access online. In the year 2020, I made the decision to
+            use Chrome's developers console to learn how a web page is built,
+            which piqued my interest in web development. Additionally, it
+            increased my interest in online applications!
           </p>
 
           <p>
-            Fast-forward to today, and I’ve had the privilege of working as a
-            freelancer for a start-up on <span>Upwork</span>. My main focus
-            these days is building accessible, inclusive products and digital
-            experiences at <span>Bridge360</span> for a variety of clients.
+            In the present, I've had the honor of working as a freelancer for a
+            start-up on Upwork. Building inclusive, accessible products and
+            digital experiences for a range of clients at Bridge360 is my major
+            emphasis right now.
           </p>
 
           <p>Here are a few technologies I'm currently working with:</p>

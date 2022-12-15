@@ -223,7 +223,6 @@ button {
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
-  max-width: 1600px;
   box-sizing: border-box;
 }
 
@@ -1319,6 +1318,10 @@ footer {
     max-width: 270px;
     margin: 0px auto 10px;
     color: var(--light-slate);
+  }
+
+  .footer-links ul li a svg {
+    width: 24px !important;
   }
 }
 

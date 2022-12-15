@@ -8,7 +8,7 @@ const jobs = [
     date: 'June 2022 - Present',
     description: [
       'Developed a management applicaiton using React, Redux, and Node.js.',
-      'Built scalable RESTful API client using Node.js, Express Js and Mongoose.',
+      'Built scalable RESTful API using Node.js, Express Js, Mongoose and MongoDB.',
       'Coordinating a team of developers to ensure the project is completed on time.',
     ],
     url: 'https://www.bridge360.ph/about-us',
@@ -18,7 +18,7 @@ const jobs = [
     id: 'upworkfreelance',
     company: 'Upwork',
     position: 'Frontend Developer',
-    date: 'June 2021 - Present',
+    date: 'November 2021',
     description: [
       'Developed an E-Commerce web application for a client using React.',
       'Integrated application with Shopify and Printful to handle manufacturing and inventory.',

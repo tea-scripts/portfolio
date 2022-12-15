@@ -45,10 +45,10 @@ const Hero = () => {
         {...(showText ? { timeout: 650 } : {})}
       >
         <p className="hero-description" style={{ margin: '20px 0px 0px' }}>
-          I’m a fullstack web developer specializing in building (and
-          occasionally designing) exceptional digital experiences using MERN
-          Stack. Currently, I’m focused on building accessible, human-centered
-          products at <span style={styles.company}>Bridge360</span> .
+          I'm a full-stack web developer with a focus on leveraging the MERN
+          Stack to create great digital experiences. I'm now concentrating on
+          developing usable, human-centered solutions at{' '}
+          <span style={styles.company}>Bridge360</span>.
         </p>
       </Grow>
       <Slide

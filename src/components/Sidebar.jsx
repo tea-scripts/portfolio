@@ -1,6 +1,17 @@
-import { Drawer } from '@mui/material';
+import { Drawer, styled } from '@mui/material';
 import { useAppContext } from '../context/appContext';
 import resume from '../assets/resume.pdf';
+import { IconX } from '@tabler/icons';
+
+const DrawerHeader = styled('div')(({ theme }) => ({
+  display: 'flex',
+  alignItems: 'center',
+  padding: theme.spacing(0, 1),
+  background: 'var(--navy)',
+  // necessary for content to be below app bar
+  ...theme.mixins.toolbar,
+  justifyContent: 'flex-end',
+}));
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useAppContext();
@@ -40,6 +51,18 @@ const Sidebar = () => {
 
   return (
     <Drawer anchor="right" open={isSidebarOpen} onClose={closeSidebar}>
+      <DrawerHeader>
+        <IconX
+          onClick={closeSidebar}
+          style={{
+            width: '40px',
+            marginBottom: '-43.5px',
+            marginRight: '13px',
+            zIndex: 1,
+          }}
+          color="var(--green)"
+        />
+      </DrawerHeader>
       {list('left')}
     </Drawer>
   );

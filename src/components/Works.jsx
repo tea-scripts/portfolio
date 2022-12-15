@@ -70,7 +70,7 @@ const Works = () => {
                 <p>
                   Built a github user search application which lets users search
                   and view information on whomever they want including
-                  themselves
+                  themselves.
                 </p>
               </div>
               <ul className="tech-list">
