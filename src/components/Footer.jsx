@@ -53,8 +53,7 @@ const Footer = () => {
           Built by <a href="https://github.com/tea-scripts">Tea Scripts</a>
         </p>
         <p>
-          Inspired by{' '}
-          <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
+          Inspired by <a href="https://github.com/bchiang7">Brittany Chiang</a>
         </p>
       </div>
     </footer>

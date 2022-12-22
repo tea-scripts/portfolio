@@ -46,7 +46,7 @@ const Hero = () => {
       >
         <p className="hero-description" style={{ margin: '20px 0px 0px' }}>
           I'm a full-stack web developer with a focus on leveraging the MERN
-          Stack to create great digital experiences. I'm now concentrating on
+          Stack to create great digital experiences. I am now concentrating on
           developing usable, human-centered solutions at{' '}
           <span style={styles.company}>Bridge360</span>.
         </p>
