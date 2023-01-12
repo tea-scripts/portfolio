@@ -4,12 +4,13 @@ const jobs = [
   {
     id: 'bridgethreesixty',
     company: 'Bridge360',
-    position: 'Full-Stack Developer',
-    date: 'June 2022 - Present',
+    position: 'Junior Software Developer',
+    date: 'January 2023 - Present',
     description: [
-      'Developed a management applicaiton using React, Redux, and Node.js.',
-      'Built scalable RESTful API using Node.js, Express Js, Mongoose and MongoDB.',
-      'Coordinating a team of developers to ensure the project is completed on time.',
+      'Developed and maintained web applications using the MERN stack (MongoDB, Express, React, and Node.js).',
+      'Contributed to the development of a cloud-based platform, including the creation of RESTful APIs and the integration of third-party services.',
+      'Provide assistance in the troubleshooting and debugging of issues in the development and production environments.',
+      'Participated in code reviews and provided constructive feedback to improve code quality and team efficiency.',
     ],
     url: 'https://www.bridge360.ph/about-us',
   },
