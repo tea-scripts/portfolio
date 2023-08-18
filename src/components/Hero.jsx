@@ -12,7 +12,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="hero">
+    <section className="hero p-100">
       <Slide
         in={showText}
         style={{ transformOrigin: '0 0 0' }}
@@ -37,7 +37,9 @@ const Hero = () => {
         {...(showText ? { timeout: 600 } : {})}
         direction="left"
       >
-        <h3 className="big-heading big-heading-alt">I create web products.</h3>
+        <h3 className="big-heading big-heading-alt">
+          I create web applications.
+        </h3>
       </Slide>
       <Grow
         in={showText}

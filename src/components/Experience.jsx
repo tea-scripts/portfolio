@@ -4,13 +4,13 @@ const jobs = [
   {
     id: 'bridgethreesixty',
     company: 'Bridge360',
-    position: 'Junior Software Developer',
+    position: 'Junior Software Developer II',
     date: 'January 2023 - Present',
     description: [
       'Developed and maintained web applications using the MERN stack (MongoDB, Express, React, and Node.js).',
       'Contributed to the development of a cloud-based platform, including the creation of RESTful APIs and the integration of third-party services.',
-      'Provide assistance in the troubleshooting and debugging of issues in the development and production environments.',
-      'Participated in code reviews and provided constructive feedback to improve code quality and team efficiency.',
+      'Provide adept troubleshooting and debugging support across development and production environments, ensuring optimal application performance.',
+      'Exemplified a proactive role in conducting comprehensive code reviews, offering insightful feedback to elevate code quality and team efficacy.',
     ],
     url: 'https://www.bridge360.ph/about-us',
   },
@@ -21,9 +21,11 @@ const jobs = [
     position: 'Frontend Developer',
     date: 'November 2021',
     description: [
-      'Developed an E-Commerce web application for a client using React.',
+      'Developed an E-Commerce web application for clients using React Framework.',
       'Integrated application with Shopify and Printful to handle manufacturing and inventory.',
       'Implemented a payment gateway which allows checkout and processes payments.',
+      'Created a custom dashboard for clients to manage orders and products.',
+      'Implemented a robust JWT-based authentication and authorization system fortifying the applications security framework.',
     ],
     url: 'https://www.upwork.com/freelancers/~0186e56e0ec0799dbb',
   },
@@ -35,7 +37,7 @@ const Experience = () => {
   const { company, position, date, description, url } = jobs[value];
 
   return (
-    <section id="experience">
+    <section id="experience" style={{ padding: '100px 0' }}>
       <h2 className="numbered-heading">Where I've Worked</h2>
       <div className="flex-container">
         <div className="btn-container">

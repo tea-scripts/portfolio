@@ -2,7 +2,7 @@ import timi from '../assets/timi.png';
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" style={{ padding: '100px 0' }}>
       <h2 className="numbered-heading">About Me</h2>
       <div className="grid-container">
         <div className="grid-item-one">
@@ -26,6 +26,7 @@ const About = () => {
           <ul className="skills-list">
             <li>JavaScript (ES6+)</li>
             <li>React</li>
+            <li>TypeScript</li>
             <li>Redux</li>
             <li>Node.js</li>
             <li>MongoDB</li>

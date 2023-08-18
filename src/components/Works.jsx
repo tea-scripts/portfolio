@@ -4,7 +4,7 @@ import githubsearch from '../assets/githubusersearch.png';
 
 const Works = () => {
   return (
-    <section id="works">
+    <section id="works" style={{ padding: '100px 0' }}>
       <h2 className="numbered-heading">What I've Built</h2>
       <ul className="featured-works">
         <li className="featured-work">

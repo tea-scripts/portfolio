@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" style={{ padding: '100px 0' }}>
       <h2 className="numbered-heading overline">What's next?</h2>
       <h2 className="title">Get In Touch</h2>
       <p>

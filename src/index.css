@@ -144,8 +144,11 @@ h3 {
 
 section {
   margin: 0px auto;
-  padding: 100px 0px;
   max-width: 1000px;
+}
+
+p-100 {
+  padding: 100px 0px !important;
 }
 
 button {
